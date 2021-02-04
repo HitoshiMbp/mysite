@@ -1,13 +1,44 @@
-.scroll-button {
-  width: 84px;
-  height: 84px;
-  position: fixed;
-  right: 20px;
-  bottom: 60px;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  z-index: 100;
-  transition: .5s ease; 
-  background-image: url('https://www.protosolution.co.jp/codebase/common/img/top_btn.png')
+
+h1  {
+  text-align: center;
+}
+
+body {
+  background-color: #cccccc;
+  padding-top: 40px;
+}
+
+.navbar-default{
+  font-weight: 200;
+  border-bottom: 1px solid #cccccc;
+}
+
+.fa-guitar {
+  margin-right: 5px;
+}
+
+.jumbotron-main {
+  position: relative;
+  top: 20%;
+}
+
+.about-contents {
+  background-color: #17a2b8;
+  padding: 5rem 0;
+  color: #cccccc;
+}
+
+.about-contents img{
+  text-align: center;
+}
+
+.about-hobby {
+  background-color: #224d53;
+  padding: 5rem 0;
+  color: #cccccc;
+}
+.about-photo {
+  background-color: #06373d;
+  padding: 5rem 0;
+  color: #cccccc;
 }
